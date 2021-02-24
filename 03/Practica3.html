@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<fieldset>
+    <legend>Datos del usuario</legend>
+    <label for="id_nombre">Nombre: </label>
+    <input type="text" name="nombre" id="id_nombre"><br />
+    <p>Eres socio?</p><br />
+    <input type="radio" name="socio" id="id_socioSi" value="SI">
+    <label id="id_socioSi">Si, soy socio</label>
+    <input type="radio" name="socio" id="id_socioNo" value="NO">
+    <label id="id_socioNo">No soy socio</label><br />
+    <br />
+    <label id="id_email">Email</label>
+    <input type="text" name="email" id="id_email"><br />
+    <br />
+    <label id="id_contrasella">Contrasella</label>
+    <input type="password" id="id_contrasella" name="constrasella"><br />
+</fieldset>
+<fieldset>
+    <legend>Datos de la reserva</legend>
+    <label for="id_edad">Edada: </label>
+    <input type="date" id="id_edad" name="fecha"><br />
+    <p>Selecione la flecha y la hora de reserva:</p>
+    <input type="date" name="fecha2">
+    <input type="time" name="hora"><br />
+    <br />
+    <input type="text" name="comentarios">
+</fieldset>
+<input type="radio" id="id_radio" name="aceptar">
+<label from="id_radio">Acepto las condiciones</label><br/>
+<input type="submit" Value="Enviar" name="botonEnviar">
+
+</html>
